@@ -9,7 +9,7 @@
   <img src="./assets/header.svg" width="100%" alt="Alexandru — TypeScript, Python, React, NestJS, Qiskit">
 </p>
 
-I build web applications for a living and experiment with quantum algorithms when nobody is watching. Most of my time goes into typed backends, component architecture, and figuring out why the circuit that worked in the simulator does not work on real hardware.
+I build web applications and experiment with quantum algorithms when nobody is watching. Most of my time goes into typed backends, component architecture, and figuring out why the circuit that worked in the simulator does not work on real hardware.
 
 ### Currently
 
