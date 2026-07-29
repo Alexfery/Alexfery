@@ -23,12 +23,12 @@ I build web applications for a living and experiment with quantum algorithms whe
 ### Contributions
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake-dark.svg" alt="Contribution graph being eaten by a snake">
+  <img src="https://raw.githubusercontent.com/Alexfery/Alexfery/output/snake-dark.svg" alt="Contribution graph being eaten by a snake">
 </p>
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&bg_color=00000000&title_color=b088ff&icon_color=61dafb&text_color=9d95cf">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&bg_color=00000000&title_color=b088ff&text_color=9d95cf">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Alexfery&show_icons=true&hide_border=true&bg_color=00000000&title_color=b088ff&icon_color=61dafb&text_color=9d95cf">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alexfery&layout=compact&hide_border=true&bg_color=00000000&title_color=b088ff&text_color=9d95cf">
 </p>
 
 ### Reach me
