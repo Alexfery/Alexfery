@@ -27,8 +27,8 @@ I build web applications for a living and experiment with quantum algorithms whe
 </p>
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Alexfery&show_icons=true&hide_border=true&bg_color=00000000&title_color=b088ff&icon_color=61dafb&text_color=9d95cf">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alexfery&layout=compact&hide_border=true&bg_color=00000000&title_color=b088ff&text_color=9d95cf">
+  <img height="150" src="https://githubreadmestats.vercel.app/apiusername=Alexfery&show_icons=true&hide_border=true&bg_color=00000000&title_color=b088ff&icon_color=61dafb&text_color=9d95cf">
+  <img height="150" src="https://githubreadmestats.vercel.app/api/toplangs/username=Alexfery&layout=compact&hide_border=true&bg_color=00000000&title_color=b088ff&text_color=9d95cf">
 </p>
 
 ### Reach me
