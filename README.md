@@ -1,3 +1,10 @@
+### Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-4d9fe8?style=for-the-badge&logo=typescript&logoColor=1c1140)
+![Python](https://img.shields.io/badge/Python-ffd85e?style=for-the-badge&logo=python&logoColor=1c1140)
+![React](https://img.shields.io/badge/React-61dafb?style=for-the-badge&logo=react&logoColor=1c1140)
+![NestJS](https://img.shields.io/badge/NestJS-f0456b?style=for-the-badge&logo=nestjs&logoColor=ffffff)
+![Qiskit](https://img.shields.io/badge/Qiskit-b088ff?style=for-the-badge&logo=qiskit&logoColor=1c1140)
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="Alexandru — TypeScript, Python, React, NestJS, Qiskit">
 </p>
