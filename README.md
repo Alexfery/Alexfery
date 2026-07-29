@@ -29,10 +29,10 @@ I build web applications for a living and experiment with quantum algorithms whe
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&bg_color=00000000&title_color=b088ff&icon_color=61dafb&text_color=9d95cf">
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&bg_color=00000000&title_color=b088ff&text_color=9d95cf">
-  [![Website](https://img.shields.io/badge/alexandru.dev-b088ff?style=for-the-badge&logo=googlechrome&logoColor=1c1140)](https://feralexandru.com)
 </p>
 
 ### Reach me
 
 [![Email](https://img.shields.io/badge/email-b088ff?style=for-the-badge&logo=gmail&logoColor=1c1140)](mailto:fer_alexandru_virgil@outlook.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-61dafb?style=for-the-badge&logo=linkedin&logoColor=1c1140)](https://www.linkedin.com/in/alexandru-fer-90490b245/?isSelfProfile=false)
+ [![Website](https://img.shields.io/badge/alexandru.dev-b088ff?style=for-the-badge&logo=googlechrome&logoColor=1c1140)](https://feralexandru.com)
