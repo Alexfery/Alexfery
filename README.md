@@ -33,5 +33,5 @@ I build web applications for a living and experiment with quantum algorithms whe
 
 ### Reach me
 
-[![Email](https://img.shields.io/badge/email-b088ff?style=for-the-badge&logo=gmail&logoColor=1c1140)](mailto:you@example.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-61dafb?style=for-the-badge&logo=linkedin&logoColor=1c1140)](https://linkedin.com/in/USERNAME)
+[![Email](https://img.shields.io/badge/email-b088ff?style=for-the-badge&logo=gmail&logoColor=1c1140)](mailto:fer_alexandru_virgil@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-61dafb?style=for-the-badge&logo=linkedin&logoColor=1c1140)](https://www.linkedin.com/in/alexandru-fer-90490b245/?isSelfProfile=false)
