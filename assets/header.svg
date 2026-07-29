@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340"
+     role="img" aria-label="Alexandru - TypeScript, Python, React, NestJS, Qiskit">
+  <title>Alexandru - full-stack developer and quantum computing</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10102a"/>
+      <stop offset="55%" stop-color="#141033"/>
+      <stop offset="100%" stop-color="#1c1140"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#cbb6ff"/>
+      <stop offset="100%" stop-color="#b088ff"/>
+    </linearGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; }
+    .name { font-family: "Segoe UI", Inter, system-ui, -apple-system, "Helvetica Neue", sans-serif;
+             font-size: 42px; font-weight: 700; letter-spacing: -0.5px; fill: url(#name); }
+    .kicker { font-size: 11.5px; letter-spacing: 3.4px; fill: #7e78b4; }
+    .sub { font-size: 13px; letter-spacing: 0.6px; fill: #9d95cf; }
+    .qidx { font-size: 11.5px; fill: #5d5790; letter-spacing: 0.5px; }
+    .lbl { font-size: 13px; font-weight: 600; text-anchor: end; letter-spacing: 0.3px; }
+    .gate { font-size: 13px; font-weight: 700; text-anchor: middle; }
+    .meas rect { fill: #2a2350; fill-opacity: 0.55; stroke: #6f68a8; stroke-opacity: 0.5; stroke-width: 1.2; }
+    .meas path { stroke: #a89fe0; stroke-width: 1.3; stroke-linecap: round; }
+    .cursor { fill: #b088ff; font-weight: 400; animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor { animation: none; }
+    }
+  </style>
+
+  <rect width="900" height="340" rx="16" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="338.5" rx="15.25" fill="none"
+        stroke="#463a7a" stroke-opacity="0.55"/>
+
+  <text class="kicker" x="36" y="48">SOFTWARE ENGINEER</text>
+  <text class="name" x="34" y="94">Alexandru<tspan class="cursor" dx="6">|</tspan></text>
+  <text class="sub" x="36" y="118">TypeScript on the classical side, Qiskit on the other.</text>
+
+  <g class="lane">
+    <line x1="168" y1="148" x2="782" y2="148" stroke="#4d9fe8" stroke-opacity="0.28" stroke-width="1.4"/>
+    <line x1="812" y1="146" x2="852" y2="146" stroke="#4d9fe8" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="812" y1="150" x2="852" y2="150" stroke="#4d9fe8" stroke-opacity="0.2" stroke-width="1"/>
+    <text class="qidx" x="36" y="152">q[0]</text>
+    <text class="lbl" x="152" y="152" fill="#4d9fe8">TypeScript</text>
+    <g>
+      <rect x="224" y="133" width="32" height="30" rx="7" fill="#4d9fe8" fill-opacity="0.1"
+            stroke="#4d9fe8" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.0436;0.0646;0.1136;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.0436;0.0646;0.1136;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="240" y="153" fill="#4d9fe8">H</text>
+    </g>
+    <g>
+      <rect x="356" y="133" width="32" height="30" rx="7" fill="#4d9fe8" fill-opacity="0.1"
+            stroke="#4d9fe8" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.1511;0.1721;0.2211;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.1511;0.1721;0.2211;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="372" y="153" fill="#4d9fe8">T</text>
+    </g>
+    <g>
+      <rect x="580" y="133" width="32" height="30" rx="7" fill="#4d9fe8" fill-opacity="0.1"
+            stroke="#4d9fe8" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.3335;0.3545;0.4035;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.3335;0.3545;0.4035;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="596" y="153" fill="#4d9fe8">X</text>
+    </g>
+    <g class="meas">
+      <rect x="782" y="133" width="30" height="30" rx="7"/>
+      <path d="M 789 155 A 8 8 0 0 1 805 155" fill="none"/>
+      <path d="M 797 155 L 803 145" fill="none"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="168" cy="148" r="4.5" fill="#4d9fe8">
+        <animate attributeName="cx" values="168;782;782" keyTimes="0;0.5;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.47;0.5;1"
+                 dur="5.0s" begin="0.0s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <g class="lane">
+    <line x1="168" y1="186" x2="782" y2="186" stroke="#ffd85e" stroke-opacity="0.28" stroke-width="1.4"/>
+    <line x1="812" y1="184" x2="852" y2="184" stroke="#ffd85e" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="812" y1="188" x2="852" y2="188" stroke="#ffd85e" stroke-opacity="0.2" stroke-width="1"/>
+    <text class="qidx" x="36" y="190">q[1]</text>
+    <text class="lbl" x="152" y="190" fill="#ffd85e">Python</text>
+    <g>
+      <rect x="200" y="171" width="32" height="30" rx="7" fill="#ffd85e" fill-opacity="0.1"
+            stroke="#ffd85e" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.0241;0.0451;0.0941;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.0241;0.0451;0.0941;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="216" y="191" fill="#ffd85e">X</text>
+    </g>
+    <g>
+      <rect x="312" y="171" width="32" height="30" rx="7" fill="#ffd85e" fill-opacity="0.1"
+            stroke="#ffd85e" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.1153;0.1363;0.1853;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.1153;0.1363;0.1853;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="328" y="191" fill="#ffd85e">H</text>
+    </g>
+    <g>
+      <rect x="496" y="171" width="32" height="30" rx="7" fill="#ffd85e" fill-opacity="0.1"
+            stroke="#ffd85e" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.2651;0.2861;0.3351;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.2651;0.2861;0.3351;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="512" y="191" fill="#ffd85e">S</text>
+    </g>
+    <g class="meas">
+      <rect x="782" y="171" width="30" height="30" rx="7"/>
+      <path d="M 789 193 A 8 8 0 0 1 805 193" fill="none"/>
+      <path d="M 797 193 L 803 183" fill="none"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="168" cy="186" r="4.5" fill="#ffd85e">
+        <animate attributeName="cx" values="168;782;782" keyTimes="0;0.5;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.47;0.5;1"
+                 dur="5.0s" begin="0.34s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <g class="lane">
+    <line x1="168" y1="224" x2="782" y2="224" stroke="#61dafb" stroke-opacity="0.28" stroke-width="1.4"/>
+    <line x1="812" y1="222" x2="852" y2="222" stroke="#61dafb" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="812" y1="226" x2="852" y2="226" stroke="#61dafb" stroke-opacity="0.2" stroke-width="1"/>
+    <text class="qidx" x="36" y="228">q[2]</text>
+    <text class="lbl" x="152" y="228" fill="#61dafb">React</text>
+    <g>
+      <rect x="248" y="209" width="32" height="30" rx="7" fill="#61dafb" fill-opacity="0.1"
+            stroke="#61dafb" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.0632;0.0842;0.1332;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.0632;0.0842;0.1332;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="264" y="229" fill="#61dafb">H</text>
+    </g>
+    <g>
+      <rect x="436" y="209" width="32" height="30" rx="7" fill="#61dafb" fill-opacity="0.1"
+            stroke="#61dafb" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.2163;0.2373;0.2863;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.2163;0.2373;0.2863;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="452" y="229" fill="#61dafb">Z</text>
+    </g>
+    <g>
+      <rect x="624" y="209" width="32" height="30" rx="7" fill="#61dafb" fill-opacity="0.1"
+            stroke="#61dafb" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.3694;0.3904;0.4394;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.3694;0.3904;0.4394;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="640" y="229" fill="#61dafb">T</text>
+    </g>
+    <g class="meas">
+      <rect x="782" y="209" width="30" height="30" rx="7"/>
+      <path d="M 789 231 A 8 8 0 0 1 805 231" fill="none"/>
+      <path d="M 797 231 L 803 221" fill="none"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="168" cy="224" r="4.5" fill="#61dafb">
+        <animate attributeName="cx" values="168;782;782" keyTimes="0;0.5;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.47;0.5;1"
+                 dur="5.0s" begin="0.68s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <g class="lane">
+    <line x1="168" y1="262" x2="782" y2="262" stroke="#f0456b" stroke-opacity="0.28" stroke-width="1.4"/>
+    <line x1="812" y1="260" x2="852" y2="260" stroke="#f0456b" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="812" y1="264" x2="852" y2="264" stroke="#f0456b" stroke-opacity="0.2" stroke-width="1"/>
+    <text class="qidx" x="36" y="266">q[3]</text>
+    <text class="lbl" x="152" y="266" fill="#f0456b">NestJS</text>
+    <g>
+      <rect x="272" y="247" width="32" height="30" rx="7" fill="#f0456b" fill-opacity="0.1"
+            stroke="#f0456b" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.0827;0.1037;0.1527;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.0827;0.1037;0.1527;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="288" y="267" fill="#f0456b">T</text>
+    </g>
+    <g>
+      <rect x="404" y="247" width="32" height="30" rx="7" fill="#f0456b" fill-opacity="0.1"
+            stroke="#f0456b" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.1902;0.2112;0.2602;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.1902;0.2112;0.2602;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="420" y="267" fill="#f0456b">X</text>
+    </g>
+    <g>
+      <rect x="540" y="247" width="32" height="30" rx="7" fill="#f0456b" fill-opacity="0.1"
+            stroke="#f0456b" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.301;0.322;0.371;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.301;0.322;0.371;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="556" y="267" fill="#f0456b">H</text>
+    </g>
+    <g class="meas">
+      <rect x="782" y="247" width="30" height="30" rx="7"/>
+      <path d="M 789 269 A 8 8 0 0 1 805 269" fill="none"/>
+      <path d="M 797 269 L 803 259" fill="none"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="168" cy="262" r="4.5" fill="#f0456b">
+        <animate attributeName="cx" values="168;782;782" keyTimes="0;0.5;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.47;0.5;1"
+                 dur="5.0s" begin="1.02s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <g class="lane">
+    <line x1="168" y1="300" x2="782" y2="300" stroke="#b088ff" stroke-opacity="0.28" stroke-width="1.4"/>
+    <line x1="812" y1="298" x2="852" y2="298" stroke="#b088ff" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="812" y1="302" x2="852" y2="302" stroke="#b088ff" stroke-opacity="0.2" stroke-width="1"/>
+    <text class="qidx" x="36" y="304">q[4]</text>
+    <text class="lbl" x="152" y="304" fill="#b088ff">Qiskit</text>
+    <g>
+      <rect x="212" y="285" width="32" height="30" rx="7" fill="#b088ff" fill-opacity="0.1"
+            stroke="#b088ff" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.0339;0.0549;0.1039;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.0339;0.0549;0.1039;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="228" y="305" fill="#b088ff">H</text>
+    </g>
+    <g>
+      <rect x="340" y="285" width="32" height="30" rx="7" fill="#b088ff" fill-opacity="0.1"
+            stroke="#b088ff" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.1381;0.1591;0.2081;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.1381;0.1591;0.2081;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="356" y="305" fill="#b088ff">S</text>
+    </g>
+    <g>
+      <rect x="468" y="285" width="32" height="30" rx="7" fill="#b088ff" fill-opacity="0.1"
+            stroke="#b088ff" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.2423;0.2633;0.3123;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.2423;0.2633;0.3123;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="484" y="305" fill="#b088ff">Z</text>
+    </g>
+    <g>
+      <rect x="604" y="285" width="32" height="30" rx="7" fill="#b088ff" fill-opacity="0.1"
+            stroke="#b088ff" stroke-opacity="0.45" stroke-width="1.2">
+        <animate attributeName="fill-opacity" values="0.1;0.1;0.62;0.1;0.1" keyTimes="0;0.3531;0.3741;0.4231;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0.45;1;0.45;0.45" keyTimes="0;0.3531;0.3741;0.4231;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+      </rect>
+      <text class="gate" x="620" y="305" fill="#b088ff">T</text>
+    </g>
+    <g class="meas">
+      <rect x="782" y="285" width="30" height="30" rx="7"/>
+      <path d="M 789 307 A 8 8 0 0 1 805 307" fill="none"/>
+      <path d="M 797 307 L 803 297" fill="none"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="168" cy="300" r="4.5" fill="#b088ff">
+        <animate attributeName="cx" values="168;782;782" keyTimes="0;0.5;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.47;0.5;1"
+                 dur="5.0s" begin="1.36s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
